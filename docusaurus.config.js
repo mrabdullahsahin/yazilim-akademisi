@@ -1,15 +1,15 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: '<YazılımAkademisi/>',
+  tagline: 'Yazılıma nereden başlayacağını bilmiyorsan ve kendini geliştirmek istiyorsan doğru yerdesin',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'mrabdullahsahin', // Usually your GitHub org/user name.
+  projectName: 'yazilim-akademisi', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: '<YazilimAkademisi/>',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -18,12 +18,12 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Başlangıç',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/mrabdullahsahin/yazilim-akademisi',
           label: 'GitHub',
           position: 'right',
         },
@@ -63,7 +63,7 @@ module.exports = {
           ],
         },
         {
-          title: 'More',
+          title: 'Daha Fazlası',
           items: [
             {
               label: 'Blog',
@@ -71,12 +71,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/mrabdullahsahin/yazilim-akademisi',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Yazılım Akademisi, Docusaurus ile yapıldı.`,
     },
   },
   presets: [
