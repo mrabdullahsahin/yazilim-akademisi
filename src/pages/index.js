@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Yazılım Akademisi</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Yazılım dünyasına giriş yapmak isteyen, elde ettiği bilgi, birikim ve tecrübesini başkalarıyla paylaşmak isteyen, değer katmaktan, üretmek ve paylaşmaktan zevk alan herkes için oluşturulmuş projedir.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Nereden Başlamalıyım Sorusuna Son!</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      Yazılıma yeni başlayanlar her daim nereden başlayım derler. Burada bulunan içerikler başlaman için yeterli. Artık lütfen başla.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Özenle Seçilmiş İçerikler</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Burada bulunan içerikler açık kaynak olarak yayınlanmış içeriklerin bir araya getirilmesi ile oluşturulmuştur. Eğer istersen burada yer almayan bir içeriği oluşturarak destek olabilirsin.
       </>
     ),
   },
@@ -72,7 +69,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              Hadi Başlayalım
             </Link>
           </div>
         </div>
